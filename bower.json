@@ -1,0 +1,8 @@
+{
+	"name": "travi-styles",
+	"ignore": [
+		"Gruntfile.js",
+		"package.json"
+	]
+}
+

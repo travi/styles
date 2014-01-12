@@ -5,8 +5,8 @@ a.add-item{
     margin-bottom:      5px;
 }
 a.add-item span.ui-icon{
-	background-image: 	url(/resources/thirdparty/travi-styles/img/famfamfam/add.png);
-    background-position:0 0;
+  background-size: 14px;
+  background-position:0 0;
 }
 a.add-item span.ui-button-text{
     padding:            0.4em 0.6em;
@@ -29,7 +29,7 @@ ul.actions li.remove-item a{
   background-size: 14px;
 }
 ul.actions li.add-photo a{
-  background-size: 14px;
+	background-image: url(/resources/thirdparty/travi-styles/img/famfamfam/image_add.png);
 }
 ul.actions li.manage-photos a{
 	background-image: url(/resources/thirdparty/travi-styles/img/famfamfam/images.png);

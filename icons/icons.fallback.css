@@ -40,7 +40,7 @@
 
 .icon-picture { background-image: url('png/picture.png'); background-repeat: no-repeat; }
 
-.ui-state-default .ui-icon.icon-plus,
+a.add-item span.ui-icon,
 .icon-plus { background-image: url('png/plus.png'); background-repeat: no-repeat; }
 
 .icon-remove { background-image: url('png/remove.png'); background-repeat: no-repeat; }

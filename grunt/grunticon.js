@@ -8,7 +8,7 @@ module.exports = {
         }],
         options: {
             customselectors: {
-                plus: ['.ui-state-default .ui-icon.icon-plus']
+                plus: ['a.add-item span.ui-icon']
             }
         }
     }

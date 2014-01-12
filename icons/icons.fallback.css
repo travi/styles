@@ -8,6 +8,8 @@
 
 .icon-desktop { background-image: url('png/desktop.png'); background-repeat: no-repeat; }
 
+.icon-edit { background-image: url('png/edit.png'); background-repeat: no-repeat; }
+
 .icon-envelope-alt { background-image: url('png/envelope-alt.png'); background-repeat: no-repeat; }
 
 .icon-envelope { background-image: url('png/envelope.png'); background-repeat: no-repeat; }
@@ -35,8 +37,6 @@
 .icon-mobile { background-image: url('png/mobile.png'); background-repeat: no-repeat; }
 
 .icon-ok { background-image: url('png/ok.png'); background-repeat: no-repeat; }
-
-.icon-pencil { background-image: url('png/pencil.png'); background-repeat: no-repeat; }
 
 .icon-picture { background-image: url('png/picture.png'); background-repeat: no-repeat; }
 

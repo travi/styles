@@ -7,6 +7,7 @@ module.exports = {
             dest: 'icons'
         }],
         options: {
+            loadersnippet: 'grunticon.loader.js',
             customselectors: {
                 plus: ['a.add-item span.ui-icon']
             }

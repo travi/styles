@@ -38,6 +38,8 @@
 
 .icon-ok { background-image: url('png/ok.png'); background-repeat: no-repeat; }
 
+.icon-open-id { background-image: url('png/open-id.png'); background-repeat: no-repeat; }
+
 .icon-picture { background-image: url('png/picture.png'); background-repeat: no-repeat; }
 
 a.add-item span.ui-icon,

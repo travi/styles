@@ -16,9 +16,6 @@ a.add-item span.ui-button-text{
 ul.actions li, ul.actions form{
 	display: inline;
 }
-/*ul.actions li a.item-action{
-	border-left: 1px solid #000;
-}*/
 ul.actions li:first-child a.item-action{
 	border-left: 0;
 }
@@ -39,15 +36,25 @@ ul.actions li.add-note a{
 }
 ul.actions li.manage-notes a{
 	background-image: url(/resources/thirdparty/travi-styles/img/famfamfam/note.png);
-}    
+}
+$loading-indicator-size: 20px;
 ol.entityList{
     list-style-type: none;
     padding:        0;
+
+  li {
+      margin:         3px;
+      padding:        5px;
+  }
+
+  img.loading-indicator {
+      height: $loading-indicator-size;
+      width: $loading-indicator-size;
+      padding-left: 5px;
+      vertical-align: middle;
+  }
 }
-ol.entityList li{
-    margin:         3px;
-    padding:        5px;
-}
+
 .entityBlock dl{
     margin:			0;
 }

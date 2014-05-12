@@ -18,7 +18,7 @@ linters:
     enabled: true
 
   DuplicateProperty:
-    enabled: true
+    enabled: false
 
   EmptyLineBetweenBlocks:
     enabled: true
@@ -61,7 +61,8 @@ linters:
 
   PropertySpelling:
     enabled: true
-    extra_properties: []
+    extra_properties:
+      - '*font-size'
 
   SelectorDepth:
     enabled: true

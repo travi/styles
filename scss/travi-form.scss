@@ -2,7 +2,7 @@ $red: #f00;
 
 .form {
   font-variant: small-caps;
-  color: #ffff;
+  color: #fff;
   padding: 3px;
 }
 
@@ -19,62 +19,84 @@ ul.fieldList {
   list-style-type: none;
   padding: 5px;
   margin: 0;
-}
 
-ul.fieldList li {
-  margin-bottom: 10px;
-}
+  li {
+    margin-bottom: 10px;
+  }
 
-ul.fieldList label {
-  width: 90px;
-  display: inline-block;
-  vertical-align: top;
-}
+  > li {
+    > label {
+      &:after {
+        content: ':';
+      }
 
-ul.fieldList label.ui-state-error {
-  width: auto;
-  margin-left: 93px;
-  padding: 3px;
-  padding-left: 20px;
-  margin-top: 3px;
-  -moz-border-radius: 4px;
-  -webkit-border-radius: 4px;
-  color: #fff;
-  display: block;
-  border: 0;
-  background-image: url('icons/ui-icon-ffffff-alert.png');
-  background-repeat: no-repeat;
-  background-position: 3px 2px;
-}
+      &.ui-state-error:after {
+        content: '';
+      }
+    }
+  }
 
-ul.fieldList fieldset label.ui-state-error {
-  display: inline;
-  float: right;
-  padding-right: 200px;
-  margin-left: 0;
-  vertical-align: top;
-}
+  label {
+    width: 90px;
+    display: inline-block;
+    vertical-align: top;
 
-ul.fieldList button {
-  margin-left: 93px;
-}
+    &.ui-state-error {
+      width: auto;
+      margin-left: 93px;
+      padding: 3px;
+      padding-left: 20px;
+      margin-top: 3px;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      color: #fff;
+      display: block;
+      border: 0;
+      background-image: url('icons/ui-icon-ffffff-alert.png');
+      background-repeat: no-repeat;
+      background-position: 3px 2px;
+    }
+  }
 
-ul.fieldList fieldset {
-  border: 0;
-  padding: 0;
-  margin: 3px 0 10px;
-}
 
-ul.fieldList fieldset legend {
-  padding: 0 0 5px;
-  font-weight: normal;
-  font-size: 1em;
-}
+  button {
+    margin-left: 93px;
+  }
 
-ul.fieldList fieldset label {
-  display: block;
-  padding-left: 90px;
-  width: auto;
+  fieldset {
+    border: 0;
+    padding: 0;
+    margin: 3px 0 10px;
+
+    label {
+      display: block;
+      padding-left: 90px;
+      width: auto;
+
+      &.ui-state-error {
+        display: inline;
+        float: right;
+        padding-right: 200px;
+        margin-left: 0;
+        vertical-align: top;
+      }
+    }
+
+    legend {
+      padding: 0 0 5px;
+      font-weight: normal;
+      font-size: 1em;
+
+      &:after {
+        content: ':';
+      }
+    }
+  }
+
+  .notearea {
+    display: inline;
+    padding-left: 0;
+  }
 }
 
 input.ui-state-error,
@@ -147,26 +169,9 @@ input.datepicker {
   vertical-align: top;
 }
 
-ul.fieldList .notearea {
-  display: inline;
-  padding-left: 0;
-}
-
 input.open-id {
   padding: 3px;
   background-position: top right;
   background-repeat: no-repeat;
   background-image: url('../img/icons/openid-icon.png');
-}
-
-ul.fieldList > li > label:after {
-  content: ':';
-}
-
-ul.fieldList > li > label.ui-state-error:after {
-  content: '';
-}
-
-ul.fieldList fieldset legend:after {
-  content: ':';
 }

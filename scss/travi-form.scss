@@ -98,6 +98,12 @@ ul.fieldList {
     display: inline;
     padding-left: 0;
   }
+
+  .submitButton {
+    margin-left: 94px;
+    clear: both;
+    display: block;
+  }
 }
 
 form ol.actions {
@@ -138,12 +144,6 @@ select.ui-state-error {
 
 .zip {
   width: 40px;
-}
-
-.submitButton {
-  margin-left: 94px;
-  clear: both;
-  display: block;
 }
 
 .outerButton {

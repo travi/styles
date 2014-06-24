@@ -6,3 +6,11 @@ ul.fieldList .formBlock {
 .ui-dialog form {
   width: 940px;
 }
+
+form ol.actions {
+  float: right;
+
+  li {
+    display: inline-block;
+  }
+}

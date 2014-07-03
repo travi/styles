@@ -68,9 +68,13 @@ ul.fieldList {
     padding: 0;
     margin: 3px 0 10px;
 
+    .choices {
+      margin-left: 90px;
+    }
+
     label {
       display: block;
-      padding-left: 90px;
+      padding: 0;
       width: auto;
 
       &.ui-state-error {
@@ -83,6 +87,7 @@ ul.fieldList {
     }
 
     legend {
+      margin: 0;
       padding: 0 0 5px;
       font-weight: normal;
       font-size: 1em;

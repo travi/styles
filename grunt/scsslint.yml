@@ -1,6 +1,7 @@
-allFiles: 
-  - 'scss/travi-*.scss'
-  - 'scss/ui/**/*.scss'
+allFiles:
+  - 'scss/**/*.scss'
+  - '!scss/**/_baseline.scss'
+  - '!scss/iconize.scss'
 options:
   reporterOutput: 'logs/scss-lint.xml'
   colorizeOutput: true

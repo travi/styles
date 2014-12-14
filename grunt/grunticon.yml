@@ -5,7 +5,7 @@ icons:
       cwd: svg
       src:
         - '*.svg'
-      dest: icons
+      dest: dist/css/icons
   options:
     loadersnippet: grunticon.loader.js
     customselectors:

@@ -2,9 +2,8 @@ icons:
   files:
     -
       expand: true
-      cwd: svg
-      src:
-        - '*.svg'
+      cwd: dist/svg
+      src: '*.svg'
       dest: dist/css/icons
   options:
     loadersnippet: grunticon.loader.js

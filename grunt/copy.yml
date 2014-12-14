@@ -1,0 +1,7 @@
+legacyIcons:
+  files:
+    -
+      expand: true
+      cwd: 'scss/icons'
+      src: "*"
+      dest: 'dist/css/icons'

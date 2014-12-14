@@ -2,5 +2,6 @@ build:
   - clean
   - sass
   - grunticon
+  - copy
 
 default: scsslint

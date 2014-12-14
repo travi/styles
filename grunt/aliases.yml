@@ -3,6 +3,7 @@ build:
   - imagemin
   - sass
   - grunticon
+  - svgstore
   - copy
 
 default: scsslint

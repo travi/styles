@@ -10,6 +10,7 @@
     "grunt-contrib-sass": "^0.8.1",
     "grunt-grunticon": "1.4.0",
     "grunt-scss-lint": "^0.1.7",
+    "grunt-svgstore": "^0.4.1",
     "load-grunt-config": "0.16.0"
   },
   "scripts": {

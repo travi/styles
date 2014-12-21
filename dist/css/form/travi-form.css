@@ -24,20 +24,17 @@ ul.fieldList {
     display: inline-block;
     vertical-align: top; }
     ul.fieldList label.ui-state-error {
-      width: auto;
-      margin-left: 93px;
-      padding: 3px;
-      padding-left: 20px;
-      margin-top: 3px;
       -moz-border-radius: 4px;
       -webkit-border-radius: 4px;
+      border-radius: 4px;
+      width: auto;
+      margin-left: 93px;
+      padding: 3px 3px 3px 20px;
+      margin-top: 3px;
       color: #fff;
       display: block;
       border: 0;
-      background-image: url("/resources/thirdparty/travi-styles/img/icons/ui-icon-ffffff-alert.png");
-      background-repeat: no-repeat;
-      background-position: 3px 2px;
-      background-color: #c80000; }
+      background: #c80000 url("/resources/thirdparty/travi-styles/img/icons/ui-icon-ffffff-alert.png") no-repeat 3px 2px; }
   ul.fieldList button {
     margin-left: 93px; }
   ul.fieldList fieldset {
@@ -78,11 +75,11 @@ form ol.actions {
 input.ui-state-error,
 textarea.ui-state-error,
 select.ui-state-error {
-  background-color: #fff;
-  background-image: none;
-  border: 2px solid #f00;
   -moz-border-radius: 4px;
-  -webkit-border-radius: 4px; }
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  background: #fff none;
+  border: 2px solid #f00; }
 
 .textInput {
   color: #f00;

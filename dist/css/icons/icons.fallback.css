@@ -42,29 +42,7 @@
 
 .icon-picture { background-image: url('png/picture.png'); background-repeat: no-repeat; }
 
-a,
-.,
-a,
-d,
-d,
--,
-i,
-t,
-e,
-m,
- ,
-s,
-p,
-a,
-n,
-.,
-u,
-i,
--,
-i,
-c,
-o,
-n,
+a.add-item span.ui-icon,
 .icon-plus { background-image: url('png/plus.png'); background-repeat: no-repeat; }
 
 .icon-remove { background-image: url('png/remove.png'); background-repeat: no-repeat; }

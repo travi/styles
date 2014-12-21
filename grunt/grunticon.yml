@@ -8,4 +8,5 @@ icons:
   options:
     loadersnippet: grunticon.loader.js
     customselectors:
-      plus: 'a.add-item span.ui-icon'
+      plus:
+        - 'a.add-item span.ui-icon'

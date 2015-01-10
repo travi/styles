@@ -49,8 +49,6 @@ ul.fieldList {
       padding: 0;
       width: auto; }
       ul.fieldList fieldset label.ui-state-error {
-        display: inline;
-        float: right;
         padding-right: 200px;
         margin-left: 0;
         vertical-align: top; }

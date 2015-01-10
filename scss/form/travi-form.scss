@@ -46,6 +46,7 @@ ul.fieldList {
     &.ui-state-error {
       @include border-radius($validation-error-radius);
       width: auto;
+      margin-left: $form-left-gutter-width;
       padding: 3px 3px 3px 20px;
       margin-top: 3px;
       color: #fff;
@@ -79,7 +80,6 @@ ul.fieldList {
 
       &.ui-state-error {
         padding-right: 200px;
-        margin-left: 0;
         vertical-align: top;
       }
     }

@@ -121,12 +121,8 @@ select.ui-state-error {
   border: 2px solid $error-red;
 }
 
-.textInput {
-  padding-left: 2px;
-}
-
+.textInput,
 .fileInput {
-  background: $grey-light;
   padding-left: 2px;
 }
 

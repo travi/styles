@@ -78,11 +78,8 @@ select.ui-state-error {
   background: #fff none;
   border: 2px solid #f00; }
 
-.textInput {
-  padding-left: 2px; }
-
+.textInput,
 .fileInput {
-  background: #ccc;
   padding-left: 2px; }
 
 .city {

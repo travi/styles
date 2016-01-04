@@ -26,6 +26,8 @@
 
 .icon-html5 { background-image: url('png/html5.png'); background-repeat: no-repeat; }
 
+.icon-key { background-image: url('png/key.png'); background-repeat: no-repeat; }
+
 .icon-linkedin-sign { background-image: url('png/linkedin-sign.png'); background-repeat: no-repeat; }
 
 .icon-linkedin { background-image: url('png/linkedin.png'); background-repeat: no-repeat; }
@@ -54,6 +56,8 @@ a.add-item span.ui-icon,
 .icon-save { background-image: url('png/save.png'); background-repeat: no-repeat; }
 
 .icon-spinner { background-image: url('png/spinner.png'); background-repeat: no-repeat; }
+
+.icon-stack-overflow { background-image: url('png/stack-overflow.png'); background-repeat: no-repeat; }
 
 .icon-star-empty { background-image: url('png/star-empty.png'); background-repeat: no-repeat; }
 

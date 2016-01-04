@@ -2,167 +2,94 @@
 <html>
 	<head>
 		<title>Icons Preview!</title>
+		<meta charset="utf-8">
 		<style>
 			body {
 				background-image: linear-gradient(#eee 25%, transparent 25%, transparent), linear-gradient(#eee 25%, transparent 25%, transparent), linear-gradient(transparent 75%, #eee 75%), linear-gradient(transparent 75%, #eee 75%);
-				width: 100%;
+				width: auto;
 				background-size: 10px 10px;
 			}
 		</style>
 		<script>
-			/* grunticon Stylesheet Loader | https://github.com/filamentgroup/grunticon | (c) 2012 Scott Jehl, Filament Group, Inc. | MIT license. */
-window.grunticon=function(e){if(e&&3===e.length){var t=window,n=!(!t.document.createElementNS||!t.document.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||window.opera&&-1===navigator.userAgent.indexOf("Chrome")||-1!==navigator.userAgent.indexOf("Series40")),o=function(o){var a=t.document.createElement("link"),r=t.document.getElementsByTagName("script")[0];a.rel="stylesheet",a.href=e[o&&n?0:o?1:2],a.media="only x",r.parentNode.insertBefore(a,r),setTimeout(function(){a.media="all"})},a=new t.Image;a.onerror=function(){o(!1)},a.onload=function(){o(1===a.width&&1===a.height)},a.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="}};
+			/*! grunt-grunticon Stylesheet Loader - v2.1.6 | https://github.com/filamentgroup/grunticon | (c) 2015 Scott Jehl, Filament Group, Inc. | MIT license. */
 
-			grunticon(["icons.data.svg.css", "icons.data.png.css", "icons.fallback.css"]);
+!function(){function e(e,n,t){"use strict";var o=window.document.createElement("link"),a=n||window.document.getElementsByTagName("script")[0],i=window.document.styleSheets;return o.rel="stylesheet",o.href=e,o.media="only x",a.parentNode.insertBefore(o,a),o.onloadcssdefined=function(e){for(var n,t=0;t<i.length;t++)i[t].href&&i[t].href===o.href&&(n=!0);n?e():setTimeout(function(){o.onloadcssdefined(e)})},o.onloadcssdefined(function(){o.media=t||"all"}),o}function n(e,n){e.onload=function(){e.onload=null,n&&n.call(e)},"isApplicationInstalled"in navigator&&"onloadcssdefined"in e&&e.onloadcssdefined(n)}!function(t){var o=function(a,i){"use strict";if(a&&3===a.length){var r=t.navigator,d=t.document,s=t.Image,c=!(!d.createElementNS||!d.createElementNS("http://www.w3.org/2000/svg","svg").createSVGRect||!d.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image","1.1")||t.opera&&-1===r.userAgent.indexOf("Chrome")||-1!==r.userAgent.indexOf("Series40")),l=new s;l.onerror=function(){o.method="png",o.href=a[2],e(a[2])},l.onload=function(){var t=1===l.width&&1===l.height,r=a[t&&c?0:t?1:2];t&&c?o.method="svg":t?o.method="datapng":o.method="png",o.href=r,n(e(r),i)},l.src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==",d.documentElement.className+=" grunticon"}};o.loadCSS=e,o.onloadCSS=n,t.grunticon=o}(this)}();
+			
+			grunticon(["icons.data.svg.css", "icons.data.png.css", "icons.fallback.css"], grunticon.svgLoadedCallback);
 		</script>
 		<noscript><link href="icons.fallback.css" rel="stylesheet"></noscript>
-
 	</head>
 	<body>
-		
-			
+
+		<h1>CUSTOM PREVIEW - you can change this in the previewTemplate option</h1>
 			<pre><code>.icon-bitbucket:</code></pre><div class="icon-bitbucket" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-cog:</code></pre><div class="icon-cog" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-credit:</code></pre><div class="icon-credit" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-css3:</code></pre><div class="icon-css3" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-desktop:</code></pre><div class="icon-desktop" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-edit:</code></pre><div class="icon-edit" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-envelope-alt:</code></pre><div class="icon-envelope-alt" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-envelope:</code></pre><div class="icon-envelope" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-exclamation-sign:</code></pre><div class="icon-exclamation-sign" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-film:</code></pre><div class="icon-film" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-github:</code></pre><div class="icon-github" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-group:</code></pre><div class="icon-group" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-home:</code></pre><div class="icon-home" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-html5:</code></pre><div class="icon-html5" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
+			<pre><code>.icon-key:</code></pre><div class="icon-key" style="width: 32px; height: 32px;" ></div><hr/>
 			<pre><code>.icon-linkedin-sign:</code></pre><div class="icon-linkedin-sign" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-linkedin:</code></pre><div class="icon-linkedin" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-lock:</code></pre><div class="icon-lock" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-minus:</code></pre><div class="icon-minus" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-mobile:</code></pre><div class="icon-mobile" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-ok:</code></pre><div class="icon-ok" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-open-id:</code></pre><div class="icon-open-id" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-picture:</code></pre><div class="icon-picture" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-plus:</code></pre><div class="icon-plus" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-remove:</code></pre><div class="icon-remove" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-rss-sign:</code></pre><div class="icon-rss-sign" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-rss:</code></pre><div class="icon-rss" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-save:</code></pre><div class="icon-save" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-spinner:</code></pre><div class="icon-spinner" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
+			<pre><code>.icon-stack-overflow:</code></pre><div class="icon-stack-overflow" style="width: 32px; height: 32px;" ></div><hr/>
 			<pre><code>.icon-star-empty:</code></pre><div class="icon-star-empty" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-star:</code></pre><div class="icon-star" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-tablet:</code></pre><div class="icon-tablet" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-tag:</code></pre><div class="icon-tag" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-tags:</code></pre><div class="icon-tags" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-trash:</code></pre><div class="icon-trash" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-twitter:</code></pre><div class="icon-twitter" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
-			
 			<pre><code>.icon-warning-sign:</code></pre><div class="icon-warning-sign" style="width: 32px; height: 32px;" ></div><hr/>
-			
-		
+
+		<h2 id="embedded-svg-option">Embedded SVG option</h2>
+		<p>(The <code>data-grunticon-embed</code> attribute tells grunticon to inject SVG inline):</p>
+
+		<pre><code>icon-burger:</code></pre><div class="icon-burger" data-grunticon-embed style="width: px; height: px;" ></div><hr/>
+
+		<style>
+			.icon-burger {
+				width: 32px;
+				height: 30px;
+				display: inline-block;
+			}
+			  .icon-burger.alt .cheese {
+		                fill: red;
+		            }
+				 .icon-burger.alt .buns {
+		                fill: orange;
+		            }
+				  .icon-burger.alt .burger {
+		                fill: yellow;
+		            }
+		 		 .icon-burger.alt .lettuce {
+		                fill: green;
+		            }
+
+		</style>
+
+		<pre><code>icon-burger (styled variation):</code></pre><div class="icon-burger alt" data-grunticon-embed></div><hr/>
+
+
+
 </body>
 </html>
